@@ -8,9 +8,11 @@
     &__img-div {
         
         &--img {
+            border-radius: 5px;
             display: block;
             height: auto;
             max-width: 100%;
+            margin-top: 2rem;
         }
         
         &--caption {
