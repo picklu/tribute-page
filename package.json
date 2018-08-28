@@ -1,0 +1,26 @@
+{
+  "name": "tribute-page",
+  "version": "1.0.0",
+  "description": "Tribute to Ramanujan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/picklu/tribute-page.git"
+  },
+  "keywords": [
+    "freecodecamp",
+    "responsive",
+    "web",
+    "design",
+    "tribute"
+  ],
+  "author": "Subrata Sarker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/picklu/tribute-page/issues"
+  },
+  "homepage": "https://github.com/picklu/tribute-page#readme"
+}
