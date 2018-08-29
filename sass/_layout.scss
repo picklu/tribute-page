@@ -1,6 +1,9 @@
 #main {
-    background-image: linear-gradient(to top right, rgba($color-grey-light, 0.1) 0%, rgba(#eee, 0.1) 70%);
-    width: 70vw;
+    background-image: linear-gradient(to right, 
+                                      rgba($color-grey-light, .3),
+                                      rgba($color-white, .3), 
+                                      rgba($color-grey-light, .3));
+    width: 60vw;
     margin: 0 auto;
     margin-top: 3rem;
 }
