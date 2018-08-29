@@ -30,7 +30,7 @@
         text-align: right;
         
         &::before {
-            background-color: currentColor;
+            background-color: $color-grey-light;
             content: "";
             display: inline-block;
             margin-right: 1rem;
