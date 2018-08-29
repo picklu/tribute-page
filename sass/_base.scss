@@ -17,6 +17,11 @@ $color-grey-light-2: #e5e5e5;
 $font-primary: 'IBM Plex Sans', sans-serif;
 $font-display: 'IBM Plex Serif', serif;
 
+// Responsive breakpoints
+$bp-largest: 75em;     // 1200px
+$bp-large: 62.5em;     // 1000px
+$bp-medium: 50em;      // 800px
+
 /*******************************
 *
 * Global Reset
@@ -25,6 +30,10 @@ $font-display: 'IBM Plex Serif', serif;
 html {
     box-sizing: border-box;    
     font-size: 62.5%;
+    
+    @media only screen and (max-width: $bp-largest) {
+        font-size: 50%;
+    }
 }
 
 *,

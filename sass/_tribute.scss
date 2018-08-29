@@ -2,6 +2,11 @@
     
     margin-top: 2rem;
     
+        
+    @media only screen and (max-width: $bp-medium) {
+        margin-right: 4rem;
+    }
+    
     .tribute-info {
         font-weight: 400;
         
