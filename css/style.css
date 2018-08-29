@@ -16,7 +16,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  color: #c69963;
+  color: #000;
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 300;
   line-height: 1.6; }
@@ -45,12 +45,13 @@ body {
 
 .link:hover,
 .link:active {
+  font-size: 110%;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   transform: translateY(-3px); }
 
 #main {
-  background-image: linear-gradient(to top right, rgba(249, 249, 248, 0.1) 0%, rgba(238, 238, 238, 0.1) 70%);
-  width: 70vw;
+  background-color: #fff;
+  width: 60vw;
   margin: 0 auto;
   margin-top: 3rem; }
 
@@ -62,7 +63,8 @@ body {
   display: block;
   height: auto;
   max-width: 100%;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  filter: grayscale(100%); }
 
 .header__img-div--caption {
   font-size: 1.5rem;
@@ -70,21 +72,24 @@ body {
 
 .tribute {
   margin-top: 2rem; }
-  .tribute .tribute-info__header {
-    margin-left: -2rem;
-    margin-bottom: 1rem; }
-  .tribute .tribute-info__list {
-    font-size: 2rem;
+  .tribute .tribute-info {
     font-weight: 400; }
+    .tribute .tribute-info__header {
+      font-size: 2.2rem;
+      margin-bottom: 1rem; }
+    .tribute .tribute-info__list {
+      margin-left: 2rem;
+      font-size: 2rem; }
 
 .quote {
   margin-top: 2.5rem;
   margin-bottom: 1.5rem; }
   .quote__text {
     display: block;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-style: italic;
-    font-weight: 400; }
+    font-weight: 400;
+    text-align: justify; }
     .quote__text::before, .quote__text::after {
       color: currentColor;
       content: "\0022";
@@ -105,12 +110,18 @@ body {
       width: 5rem; }
 
 .footer {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 400;
   margin-top: 2rem;
   text-align: center; }
   .footer__text--me {
     font-weight: 700; }
-  .footer__source, .footer #tribute-link {
+  .footer__source {
     font-size: 2.2rem;
     font-weight: 400; }
+  .footer::before {
+    background-color: #b2b2b2;
+    content: "";
+    display: table;
+    height: 2px;
+    width: 100%; }
