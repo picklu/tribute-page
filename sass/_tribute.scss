@@ -2,7 +2,6 @@
     
     margin-top: 2rem;
     word-spacing: .5rem;
-    
         
     @media only screen and (max-width: $bp-medium) {
         margin-right: 4rem;
@@ -17,7 +16,7 @@
         }
         
         &__list {
-            list-style-type: circle;
+            list-style-type: none;
             margin-left: 2rem;
             font-size: 2rem;
             
@@ -28,8 +27,34 @@
             li > b {
                 color: #757575;
             }
+            
+            li {
+                padding-left: 3rem;
+                position: relative;
+                
+                &:hover {
+                    text-shadow: 1px 2px 5px #999;
+                    
+                    &::before {
+                        transform: rotate(135deg);
+                    }
+                }
+            }
+            
+            li::before {
+                content: '';
+                display: table;
+                position: absolute;
+                left: -1.5rem;
+                top: .25rem;
+                width: 2.5rem;
+                height: 2.5rem;
+                background-image: radial-gradient(#FFF, #999);
+                border: 2px solid #888;
+                border-radius: 2px;
+                box-shadow: 0 0 2px #999;
+                transition: all .3s;
+            }
         }
     }
-    
-    
 }
