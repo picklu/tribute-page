@@ -1,6 +1,7 @@
 .tribute {
     
     margin-top: 2rem;
+    word-spacing: .5rem;
     
         
     @media only screen and (max-width: $bp-medium) {
@@ -16,8 +17,17 @@
         }
         
         &__list {
+            list-style-type: circle;
             margin-left: 2rem;
             font-size: 2rem;
+            
+            li:not(:last-child) {
+                padding-bottom: 1rem;
+            }
+            
+            li > b {
+                color: #757575;
+            }
         }
     }
     
