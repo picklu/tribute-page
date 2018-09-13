@@ -22,6 +22,10 @@
             font-size: 3rem;
             font-weight: 400;
         }
+        
+        &:hover {
+            text-shadow: 2px 5px 10px #888;
+        }
     }
     
     &__footer {

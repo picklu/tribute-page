@@ -135,6 +135,8 @@ body {
       display: inline-block;
       font-size: 3rem;
       font-weight: 400; }
+    .quote__text:hover {
+      text-shadow: 2px 5px 10px #888; }
   .quote__footer {
     font-size: 2rem;
     font-weight: 500;
