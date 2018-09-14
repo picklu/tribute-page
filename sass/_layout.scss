@@ -8,12 +8,12 @@
     margin: 0 auto;
     margin-top: 10rem;
     padding: 7rem;
+    text-align: justify;
     
     @media only screen and (max-width: $bp-large) {
         margin-top: 5rem;
         padding: 5rem;
         width: 70vw;
-        text-align: justify;
     }
     
     @media only screen and (max-width: $bp-medium) {

@@ -66,13 +66,13 @@ body {
   width: 60vw;
   margin: 0 auto;
   margin-top: 10rem;
-  padding: 7rem; }
+  padding: 7rem;
+  text-align: justify; }
   @media only screen and (max-width: 62.5em) {
     .main {
       margin-top: 5rem;
       padding: 5rem;
-      width: 70vw;
-      text-align: justify; } }
+      width: 70vw; } }
   @media only screen and (max-width: 50em) {
     .main {
       margin: 0;
