@@ -21,7 +21,7 @@
             font-size: 2rem;
             
             li:not(:last-child) {
-                padding-bottom: 1rem;
+                padding-bottom: 1.5rem;
             }
             
             li > b {
@@ -31,6 +31,10 @@
             li {
                 padding-left: 3rem;
                 position: relative;
+                
+                @media only screen and (max-width: $bp-medium) {
+                    padding-left: 1.5rem;
+                }
                 
                 &:hover {
                     text-shadow: 1px 2px 5px #999;
@@ -46,7 +50,7 @@
                 display: table;
                 position: absolute;
                 left: -1.5rem;
-                top: .25rem;
+                top: .35rem;
                 width: 2.5rem;
                 height: 2.5rem;
                 background-image: radial-gradient(#FFF, #999);
@@ -54,6 +58,12 @@
                 border-radius: 2px;
                 box-shadow: 0 0 2px #999;
                 transition: all .3s;
+                
+                @media only screen and (max-width: $bp-medium) {
+                    top: .6rem;
+                    width: 2rem;
+                    height: 2rem;
+                }
             }
         }
     }

@@ -66,7 +66,7 @@ body {
   width: 60vw;
   margin: 0 auto;
   margin-top: 10rem;
-  padding: 10rem; }
+  padding: 7rem; }
   @media only screen and (max-width: 62.5em) {
     .main {
       margin-top: 5rem;
@@ -76,7 +76,7 @@ body {
   @media only screen and (max-width: 50em) {
     .main {
       margin: 0;
-      padding: 0 2rem;
+      padding: 0 1.5rem;
       width: 100vw; } }
 
 .header__title {
@@ -116,12 +116,15 @@ body {
       margin-left: 2rem;
       font-size: 2rem; }
       .tribute .tribute-info__list li:not(:last-child) {
-        padding-bottom: 1rem; }
+        padding-bottom: 1.5rem; }
       .tribute .tribute-info__list li > b {
         color: #757575; }
       .tribute .tribute-info__list li {
         padding-left: 3rem;
         position: relative; }
+        @media only screen and (max-width: 50em) {
+          .tribute .tribute-info__list li {
+            padding-left: 1.5rem; } }
         .tribute .tribute-info__list li:hover {
           text-shadow: 1px 2px 5px #999; }
           .tribute .tribute-info__list li:hover::before {
@@ -131,7 +134,7 @@ body {
         display: table;
         position: absolute;
         left: -1.5rem;
-        top: .25rem;
+        top: .35rem;
         width: 2.5rem;
         height: 2.5rem;
         background-image: radial-gradient(#FFF, #999);
@@ -139,6 +142,11 @@ body {
         border-radius: 2px;
         box-shadow: 0 0 2px #999;
         transition: all .3s; }
+        @media only screen and (max-width: 50em) {
+          .tribute .tribute-info__list li::before {
+            top: .6rem;
+            width: 2rem;
+            height: 2rem; } }
 
 .quote {
   margin-top: 2.5rem;
