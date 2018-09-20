@@ -25,7 +25,7 @@
             }
             
             li > b {
-                color: #757575;
+                color: #666;
             }
             
             li {
@@ -37,7 +37,7 @@
                 }
                 
                 &:hover {
-                    text-shadow: 1px 2px 5px #999;
+                    text-shadow: 0 0 2px #999;
                     
                     &::before {
                         transform: rotate(135deg);
@@ -54,7 +54,7 @@
                 width: 2.5rem;
                 height: 2.5rem;
                 background-image: radial-gradient(#FFF, #999);
-                border: 2px solid #888;
+                border: 2px solid #555;
                 border-radius: 2px;
                 box-shadow: 0 0 2px #999;
                 transition: all .3s;
