@@ -167,7 +167,7 @@ body {
       font-size: 3rem;
       font-weight: 400; }
     .quote__text:hover {
-      text-shadow: 2px 5px 10px #888; }
+      text-shadow: 0 0 3px #999; }
   .quote__footer {
     font-size: 2rem;
     font-weight: 500;
