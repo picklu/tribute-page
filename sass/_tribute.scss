@@ -25,7 +25,7 @@
             }
             
             li > b {
-                color: #666;
+                color: $color-grey-dark-1;
             }
             
             li {
@@ -37,7 +37,7 @@
                 }
                 
                 &:hover {
-                    text-shadow: 0 0 2px #999;
+                    text-shadow: 0 0 2px $color-grey;
                     
                     &::before {
                         transform: rotate(135deg);
@@ -53,10 +53,10 @@
                 top: .35rem;
                 width: 2.5rem;
                 height: 2.5rem;
-                background-image: radial-gradient(#FFF, #999);
-                border: 2px solid #555;
-                border-radius: 2px;
-                box-shadow: 0 0 2px #999;
+                background-image: radial-gradient(#FFF, $color-grey-dark-2);
+                border: 2px solid $color-grey-dark-1;
+                border-radius: 1px;
+                box-shadow: 0 0 2px $color-grey-dark-2;
                 transition: all .3s;
                 
                 @media only screen and (max-width: $bp-medium) {

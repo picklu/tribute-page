@@ -66,12 +66,12 @@ body {
   width: 60vw;
   margin: 0 auto;
   margin-top: 10rem;
-  padding: 7rem;
+  padding: 10rem;
   text-align: justify; }
   @media only screen and (max-width: 62.5em) {
     .main {
       margin-top: 5rem;
-      padding: 5rem;
+      padding: 8rem;
       width: 70vw; } }
   @media only screen and (max-width: 50em) {
     .main {
@@ -118,7 +118,7 @@ body {
       .tribute .tribute-info__list li:not(:last-child) {
         padding-bottom: 1.5rem; }
       .tribute .tribute-info__list li > b {
-        color: #757575; }
+        color: #666; }
       .tribute .tribute-info__list li {
         padding-left: 3rem;
         position: relative; }
@@ -126,7 +126,7 @@ body {
           .tribute .tribute-info__list li {
             padding-left: 1.5rem; } }
         .tribute .tribute-info__list li:hover {
-          text-shadow: 1px 2px 5px #999; }
+          text-shadow: 0 0 2px #999; }
           .tribute .tribute-info__list li:hover::before {
             transform: rotate(135deg); }
       .tribute .tribute-info__list li::before {
@@ -137,10 +137,10 @@ body {
         top: .35rem;
         width: 2.5rem;
         height: 2.5rem;
-        background-image: radial-gradient(#FFF, #999);
-        border: 2px solid #888;
-        border-radius: 2px;
-        box-shadow: 0 0 2px #999;
+        background-image: radial-gradient(#FFF, #777);
+        border: 2px solid #666;
+        border-radius: 1px;
+        box-shadow: 0 0 2px #777;
         transition: all .3s; }
         @media only screen and (max-width: 50em) {
           .tribute .tribute-info__list li::before {
@@ -166,20 +166,21 @@ body {
       display: inline-block;
       font-size: 3rem;
       font-weight: 400; }
-    .quote__text:hover {
-      text-shadow: 2px 5px 10px #888; }
+    .quote__text:hover,
+    .quote__text:hover + .quote__footer {
+      text-shadow: 0 0 3px #999; }
   .quote__footer {
     font-size: 2rem;
     font-weight: 500;
     text-align: right; }
     .quote__footer::before {
-      background-color: #b2b2b2;
+      background-color: #999;
       content: "";
       display: inline-block;
       margin-right: 1rem;
       margin-bottom: .5rem;
       height: 2px;
-      width: 5rem; }
+      width: 3rem; }
 
 .footer {
   font-size: 2rem;
